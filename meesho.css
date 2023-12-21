@@ -1,0 +1,178 @@
+
+*{
+    margin: 1%;
+    padding:0%;
+    box-sizing: 50%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 9px;
+}
+nav img{
+    width: 22%;
+    margin-top: -60px;
+}
+nav.down{
+    display: flex;
+    font-size: 20px;
+    margin-top: 5px;
+}
+nav.down i{
+    margin-inline: 11px;
+}
+nav input{
+    width: 320px;
+    height: 40px;
+    outline: none;
+}
+.sec-nav p:hover{
+    color: rgb(188, 27, 27);
+    cursor: pointer;
+}
+.sec nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border: 1px solid rgb(234,230,230);
+    border-left: none;
+    border-right: none;
+    padding: 35px;
+    margin-top:-55px;
+    font-weight: 600;
+
+}
+.sec-nav p:hover{
+color: rgb(244, 16, 16);
+cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 44px;
+
+}
+.main .text{
+    width: 500px;
+    background-color: rgb(251, 206, 206);
+}
+.main.text h1{
+    font-size: 50px;
+    margin-top: 11px ;
+    margin-left: 10px;
+}
+main.text.txt{
+    display: flex;
+    justify-content: center;
+}
+main.text.txt h2{
+    margin: inline 11px;;
+    font: size 22px; ;
+    margin-top: 22px;
+
+}
+.main.text button{
+    width: 300px; ;
+    height: 40px; ;
+    background-color:rgb(246, 23, 23) ;
+    color:white ;
+    border: radius 4px; ;
+    border: none;
+    font-size: 20px;
+    margin-top: 53px;
+    margin-left: 22px;
+}
+.main.text button:hover{
+    background-color: transparent;
+    border:3px solid rgb(247, 10, 10);
+    color: rgb(233, 48, 48);
+}
+.top-cat h1{
+    text-align: center;
+    margin-top: 44px;
+    padding: 22px;
+
+
+}
+.top-cat.fs{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(248,215,221);
+    margin-left: 65px;
+    width: 1000px;
+}
+.top-cat.fs-text h1{
+    font-size: 65px;
+    margin-top: 44px;
+    
+
+}
+.seller h1{
+    text-align: center;
+    margin-top: 33px;
+    padding: 33px ;
+    font-size: 44px;
+
+}
+.seller img{
+    width: 1000px;
+    margin-left: 86px;
+}
+h1{
+    text-align:center;
+    font-size: 44px;
+    margin-top:33px;
+    padding: 33px;
+}
+.card{
+    margin-top: 33px;
+}
+.crd{
+    display:flex ;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.crd.img{
+    border:1px solid rgb(162, 149, 149)
+}
+.crd.img img{
+    width: 82%;
+}
+.footer{
+    display:flex ;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 45px;
+    padding: 45px;
+    background-color: rgb(232, 223, 223);
+}
+.footer.icons{
+    display: flex;
+    text-decoration:none;
+   padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 45px;
+
+
+}
+.footer.list.icons i{
+    margin-inline: 11px;
+    font-size: 50px;
+}
+.mic{
+    height: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+background-color: #181818;
+}
